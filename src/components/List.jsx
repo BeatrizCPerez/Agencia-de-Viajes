@@ -2,7 +2,7 @@ import React from "react";
 
 // Datos de ejemplo (puedes obtener estos datos de una API o base de datos)
 const destinationsData = [
-  { id: 1, name: "Asia", region: "Asia", duration: "2  días", price: 300 },
+  { id: 1, name: "Venezuela", region: "Asia", duration: "2  días", price: 300 },
   { id: 2, name: "Africa", region: "Africa", duration: "3  días", price: 400 },
   { id: 3, name: "Caribe", region: "Caribe", duration: "7  días", price: 1300 },
   { id: 4, name: "Moscu", region: "Rusia", duration: "5  días", price: 500 },
