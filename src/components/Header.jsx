@@ -158,7 +158,7 @@ const Header = () => {
             </div>
             <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
               <img
-                src="../src/img/piña-colada1.png"
+                src="./src/img/piña-colada1.png"
                 className="relative animate-bounce animate-infinite"
                 alt="food illustration"
                 loading="lazy"

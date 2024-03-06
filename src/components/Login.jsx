@@ -12,7 +12,7 @@ const Login = () => {
       <div className="w-full lg:w-4/12 px-4  mx-auto pt-6">
       <div className="relative flex mt-[100px] flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-lg bg-blueGray-200">
   <div className="rounded-t  mb-0 px-6 py-6">
-            <div className="text-center mb-3">
+            <div className="text-center mb-3 z-0">
               <h6 className="text-white text-sm font-bold">Sign in with</h6>
             </div>
             <div className="btn-wrapper text-center">

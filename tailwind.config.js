@@ -11,7 +11,8 @@ export default {
         'parallax2': 'url("../src/img/img3.jpg")',
         'Japon': 'url("../src/img/Japon.jpg")',
         'paris': 'url("../src/img/paris.jpg")',
-        'nuevayork': 'url("../src/img/nuevayork.jpg")'
+        'nuevayork': 'url("../src/img/nuevayork.jpg")',
+        'piña': 'url("../src/img/piña-colada1.png")'
       }
     },
   },
