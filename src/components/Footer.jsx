@@ -5,7 +5,7 @@ const Footer = () => {
 <footer class="text-gray-900 body-font bg-gradient-to-r from-blue-900 to-gray-800 py-7" _msthidden="2">
   <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col" _msthidden="2">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" _msthidden="1">
-      <img src="../src/img/sol.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 text-white p-2  rounded-full" viewBox="0 0 24 24"/>
+      <img src="/sol.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12 text-white p-2  rounded-full" viewBox="0 0 24 24"/>
       <span class="ml-3 text-xl" _msttexthash="156481" _msthidden="1" _msthash="1006">ViajaDisfruta</span>
     </a>
     <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" _msttexthash="2994290" _msthidden="1" _msthash="1007">© 2024  — Madrid
