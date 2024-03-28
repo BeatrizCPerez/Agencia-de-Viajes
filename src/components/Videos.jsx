@@ -18,7 +18,7 @@ class VideoCard extends React.Component {
         const { videoSrc, title, category, description } = this.props;
 
         return (
-            <div className=" md:w-1/2">
+            <div className="md:w-1/2">
                 <div className="wrap-video" onMouseEnter={this.hoverVideo} onMouseLeave={this.hideVideo}>
                     <video ref={this.videoRef} className="object-cover h-96 w-full" loop>
                         <source src={videoSrc} type="video/mp4" />
@@ -39,10 +39,10 @@ class VideoCard extends React.Component {
 class Videos extends React.Component {
     render() {
         return (
-            <div className="relative flex min-h-screen flex-col bg-gradient-to-r from-blue-900 to-gray-800 ">
+            <div className="relative  min-h-screen flex-col bg-gradient-to-r from-blue-900 to-gray-800 hidden md:flex">
                 <div className="min-h-28">
                     <div className="mx-auto py-4">
-                        <h2 className="font-black  text-white text-center text-2xl mt-10 uppercase">
+                        <h2 className="font-black text-white text-center text-2xl mt-10 uppercase">
                             ¡Descubre tus Próximas Vacaciones!
                         </h2>
 
@@ -61,7 +61,7 @@ class Videos extends React.Component {
                             />
                         </div>
 
-                        <div className="gap-6 mt-8  mx-4 md:flex">
+                        <div className="gap-6 mt-8 mx-4 md:flex">
                             <VideoCard
                                 videoSrc="/hotel.mp4"
                                 title="Vacaciones en un Resort"
@@ -86,3 +86,4 @@ class Videos extends React.Component {
 }
 
 export default Videos;
+
