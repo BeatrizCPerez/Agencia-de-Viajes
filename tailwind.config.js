@@ -8,10 +8,10 @@ export default {
     extend: {
       backgroundImage: {
         'parallax': 'url("/maldivas.jpg")',
-        'parallax2': 'url("../src/img/img3.jpg")',
-        'Japon': 'url("../src/img/Japon.jpg")',
-        'paris': 'url("../src/img/paris.jpg")',
-        'nuevayork': 'url("../src/img/nuevayork.jpg")'
+        'parallax2': 'url("/img3.jpg")',
+        'Japon': 'url("/Japon.jpg")',
+        'paris': 'url("/paris.jpg")',
+        'nuevayork': 'url("/nuevayork.jpg")'
       }
     },
   },
