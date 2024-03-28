@@ -117,12 +117,12 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div className= 'flex items-center justify-center h-screen bg-parallax2  bg-cover bg-center relative'>
+      <div className= 'flex items-center justify-center h-screen bg-parallax2 w-screen  bg-cover bg-center relative'>
         <div className="container m-auto px-6 pt-44 md:px-12 lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 md:px-0">
             <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
-              <div className="bg-opacity-20 p-6 rounded-md border-2  flex flex-col items-center justify-center text-center">
-                <h1 className="font-bold text-4xl text-white md:text-3.8xl lg:w-14/18">
+              <div className=" p-6 rounded-md border-2  bg-black bg-opacity-15 flex flex-col items-center justify-center text-center">
+                <h1 className="font-bold text-4xl  text-white md:text-3.8xl lg:w-14/18">
                   Tu aventura comienza aquí
                 </h1>
                </div>
