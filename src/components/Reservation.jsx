@@ -25,9 +25,7 @@ const Reservation = () => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
   };
 
-  const handleAddReservation = () => {
-    // No se necesita ninguna lógica aquí para redirigir
-  };
+  
 
   const calculateNumberOfDays = (startDate, endDate) => {
     const diffInTime = endDate.getTime() - startDate.getTime();
