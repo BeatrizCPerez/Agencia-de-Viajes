@@ -117,7 +117,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div className='flex  items-center justify-center  bg-fixed bg-cover' style={{ backgroundImage: 'url("/canarias.jpg")', backgroundSize: 'cover' }}>
+      <div className= 'flex items-center justify-center h-80 bg-parallax2 bg-cover bg-center relative'>
         <div className="container m-auto px-6 pt-44 md:px-12 lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 md:px-0">
             <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
