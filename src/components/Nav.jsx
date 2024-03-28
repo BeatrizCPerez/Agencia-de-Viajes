@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Nav = ({ toggleMenu, toggleMenuDestinos, isMenuOpen, isDestinosOpen }) => {
+const Nav = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="relative w-full">
       <nav className="fixed z-20 w-full bg-transparent">
@@ -9,7 +15,7 @@ const Nav = ({ toggleMenu, toggleMenuDestinos, isMenuOpen, isDestinosOpen }) => 
           <div className="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0">
             <div className="w-full px-6 flex justify-between lg:w-max md:px-0">
               <a href="http://localhost:5173/" aria-label="logo" className="flex space-x-2 items-center">
-                <img src="../src/img/sol.png" className="w-12" alt="tailus logo" width="144" height="133" />
+                <img src="/sol.png" className="w-12" alt="tailus logo" width="144" height="133" />
                 <span className="text-2xl font-bold text-white">Viaja<span className="text-yellow-300">Disfruta</span></span>
               </a>
 
@@ -54,38 +60,7 @@ const Nav = ({ toggleMenu, toggleMenuDestinos, isMenuOpen, isDestinosOpen }) => 
                       <span>Experiencias</span>
                     </a>
                   </li>
-                  <li className="md:hidden">
-                    <button
-                      className="block md:px-4 transition hover:text-yellow-700 focus:outline-none"
-                      onClick={toggleMenuDestinos}
-                    >
-                      <span>Destinos</span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className={`bi bi-chevron-down w-4 h-4 ml-1 transition transform ${isDestinosOpen ? 'rotate-180' : ''}`}
-                        fill="currentColor"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M1 5l7 7 7-7H1z" />
-                      </svg>
-                    </button>
-                  </li>
                 </ul>
-                {isDestinosOpen && (
-                  <ul className="space-y-6 tracking-wide font-medium text-sm md:hidden">
-                    <li>
-                      <a href="#" className="block md:px-4 transition hover:text-yellow-700 font-bold">
-                        <span>Europa</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="block md:px-4 transition hover:text-yellow-700">
-                        <span>Caribe</span>
-                      </a>
-                    </li>
-                    {/* Agrega más destinos si es necesario */}
-                  </ul>
-                )}
               </div>
               <div className="w-full space-y-2 border-yellow-200 lg:space-y-0 md:w-max lg:border-l">
                 <button
@@ -93,7 +68,6 @@ const Nav = ({ toggleMenu, toggleMenuDestinos, isMenuOpen, isDestinosOpen }) => 
                   title="Start buying"
                   className="w-full py-3 px-6 text-center rounded-full transition active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
                 >
-                  {/* Add your button content */}
                 </button>
                 <button
                   type="button"
