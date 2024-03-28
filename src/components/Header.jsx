@@ -117,8 +117,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div className='flex  items-center justify-center  bg-fixed bg-parallax2 bg-cover'>
-        <div className="container m-auto px-6 pt-32 md:px-12 lg:pt-[4.8rem] lg:px-7">
+      <div className='flex  items-center justify-center  bg-fixed bg-cover' style={{ backgroundImage: 'url("/canarias.jpg")', backgroundSize: 'cover' }}>
+        <div className="container m-auto px-6 pt-44 md:px-12 lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 md:px-0">
             <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
               <div className="bg-opacity-20 p-6 rounded-md border-2  flex flex-col items-center justify-center text-center">
@@ -155,15 +155,6 @@ const Header = () => {
                   </div>
                 </form>
               </div>
-            </div>
-            <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
-              <img
-                src="./coc.svg"
-                className="relative animate-bounce animate-infinite max-w-full h-auto"
-                alt="food illustration"
-                loading="lazy"
-                style={{ maxWidth: '80%' }} // Ajusta el ancho máximo de la imagen
-              />
             </div>
           </div>
         </div>
