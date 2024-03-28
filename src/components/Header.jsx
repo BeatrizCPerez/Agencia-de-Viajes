@@ -117,7 +117,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div className= 'flex items-center justify-center h-80 bg-parallax2 bg-cover bg-center relative'>
+      <div className= 'flex items-center justify-center h-screen bg-parallax2  bg-cover bg-center relative'>
         <div className="container m-auto px-6 pt-44 md:px-12 lg:pt-[4.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 md:px-0">
             <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
@@ -125,36 +125,7 @@ const Header = () => {
                 <h1 className="font-bold text-4xl text-white md:text-3.8xl lg:w-14/18">
                   Tu aventura comienza aquí
                 </h1>
-                <form action="" className="w-full mt-12">
-                  <div className="relative flex p-1 rounded-full bg-white border border-yellow-200 shadow-md md:p-2">
-                    <select className="w-2/4 p-3 rounded-full bg-transparent md:block md:p-4 mr-4" name="domain" id="domain">
-                      <option value="design">Destinos</option>
-                      <option value="development">Europa</option>
-                      <option value="marketing">Caribe</option>
-                      <option value="marketing">Asia</option>
-                      <option value="marketing">África</option>
-                    </select>
-                    <input placeholder="Busca tu destino" className="w-full p-4 rounded-full" type="text" />
-                    <button
-                      type="button"
-                      title="Start buying"
-                      className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
-                    >
-                      <span className="hidden text-yellow-900 font-semibold md:block">Buscar</span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="bi bi-search w-5 mx-auto text-white md:hidden"
-                        fill="currentColor"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </form>
-              </div>
+               </div>
             </div>
           </div>
         </div>
