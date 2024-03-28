@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-<footer className="text-gray-900 body-font bg-gradient-to-r from-blue-900 to-gray-800 py-7" _msthidden="2">
+<footer className="text-gray-900 body-font  bg-gradient-to-r from-blue-900 to-gray-800 py-7" _msthidden="2">
   <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col" _msthidden="2">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" _msthidden="1">
       <img src="/sol.png" fill="none" stroke="currentColor"   className="w-12 h-12 text-white p-2  rounded-full" viewBox="0 0 24 24"/>
