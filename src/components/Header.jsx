@@ -159,11 +159,9 @@ const Header = () => {
             <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
               <img
                 src="./coc.svg"
-                className="relative animate-bounce animate-infinite"
+                className="relative animate-bounce animate-infinite max-w-full h-auto"
                 alt="food illustration"
                 loading="lazy"
-                width="4500"
-                height="4500"
               />
             </div>
           </div>
