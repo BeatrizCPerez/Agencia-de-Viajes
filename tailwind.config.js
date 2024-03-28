@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'parallax': 'url("/maldivas.jpg")',
+        'parallax': 'url("/maldivas.svg")',
         'parallax2': 'url("/img3.jpg")',
         'Japon': 'url("/Japon.jpg")',
         'paris': 'url("/paris.jpg")',
