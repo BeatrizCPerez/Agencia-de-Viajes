@@ -7,8 +7,7 @@ const Login = () => {
   return (
     <>
     <section className="bg-nuevayork max-content w-screen h-screen bg-cover bg-center bg-no-repeat">
-
-    <Nav />
+     <Nav />
       <div className="w-full lg:w-4/12 px-4  mx-auto pt-6">
       <div className="relative flex mt-[100px] flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-lg bg-blueGray-200">
   <div className="rounded-t  mb-0 px-6 py-6">
