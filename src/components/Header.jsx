@@ -19,7 +19,7 @@ const Header = () => {
         <div className="container m-auto px-2 md:px-12 lg:px-7">
           <div className="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0">
             <div className="w-full px-6 flex justify-between lg:w-max md:px-0">
-              <a href="http://localhost:5173/" aria-label="logo" className="flex space-x-2 items-center">
+              <a href="/" aria-label="logo" className="flex space-x-2 items-center">
                 <img src="/sol.png" className="w-12" alt="tailus logo" width="144" height="133" />
                 <span className="text-2xl font-bold text-white">Viaja<span className="text-yellow-300">Disfruta</span></span>
               </a>
@@ -162,6 +162,7 @@ const Header = () => {
                 className="relative animate-bounce animate-infinite max-w-full h-auto"
                 alt="food illustration"
                 loading="lazy"
+                style={{ maxWidth: '80%' }} // Ajusta el ancho máximo de la imagen
               />
             </div>
           </div>
